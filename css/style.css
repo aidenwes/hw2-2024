@@ -39,23 +39,30 @@ div{
     background-color: red;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-color: white;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+    border-right: 0px;
+    border-top: 0px;
+
 }
 .blue{
     background-color: blue;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-color: white;
+    border-right: 5px solid;
+    border-top: 2px solid;
+    border-left: 0px;
+    border-bottom: 0px;
     color: #c4c4c4;
 }
 
-.blue-div h2{
+.blue h2{
     color: #c4c4c4;
 }
 
-.blue-div p {
+.blue p {
   color: #c4c4c4;
 }
 
@@ -63,12 +70,11 @@ div{
     background-color: yellow;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
-    color: #707070;
-}
-
-.yellow-div h2{
+    border-color: white;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+    border-top: 0px;
+    border-right: 0px;
     color: #707070;
 }
 
@@ -76,8 +82,11 @@ div{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-color: white;
+    border-right: 5px solid;
+    border-top: 2px solid;
+    border-bottom: 0px;
+    border-left: 0px;
 }
 footer{
     background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
@@ -86,5 +95,8 @@ footer{
 footer p{
     font-size: 20px;
     text-align:right;
-    padding: 15px 15px 0 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
 }
